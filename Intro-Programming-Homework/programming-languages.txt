@@ -1,0 +1,17 @@
+Some of the most popular and widely used programming languages, other than C#, are C, C++, Objective-C, Java, Javascript etc.
+
+C has been around for 30 years, and there is a ton of source code available. This means there's a lot to learn from, and a lot to use. Moreover, many of the issues with the language have been clearly elucidated - it's well understood, and you can find a lot of tutorials available. Plus, with C, you get lots of strong opinions mixed with insights that you can understand. 
+
+C++ is an improved version of C, but it isn't as low level as it is. One the other hand though it still very functional and the first choice of language when it comes to game developing.
+
+Objective-C is another C derivative that is nowadays used in mobile app development. For example, it's the main language used for developing iOS applications.
+
+An important similarity between these programming languages is their syntax. They are almost indentical in that aspect, so it's very easy to learn the others once you get the hang of just one.
+
+The main difference between C# and the other C-like languages is that C# is tied to the .NET Framework. Contrary to C, C++ and Objective-C, C# can't run if there isn't a .NET Framework installed on the system.
+
+Java and C# are similar programming languages that are statically, strongly, and manifestly typed, both are class-based object-oriented, both are designed with semi-interpretation or runtime compilation in mind, both use garbage-collection, and both are "curly brace languages" like C and C++.
+
+Javascript is a language used to develop web applications. If finds practical usage both client side and server side.
+
+C# and Javascript can both be used to develop games using the Unity engine.

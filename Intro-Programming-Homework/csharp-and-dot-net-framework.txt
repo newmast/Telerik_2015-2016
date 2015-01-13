@@ -1,0 +1,1 @@
+C# is a programming language, while the .NET Framework is an open-source freeware large class library known as Framework Class Library (FCL). C# depends on the .NET Framework and C# code can't work or run without it.
