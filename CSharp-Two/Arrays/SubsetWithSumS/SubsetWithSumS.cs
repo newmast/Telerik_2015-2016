@@ -14,6 +14,46 @@ class SubsetWithSumS
 {
     static void Main()
     {
+        Console.Write("Enter subset sum: ");
+        int subset = int.Parse(Console.ReadLine());
+        Console.Write("Enter array length: ");
+        int n = int.Parse(Console.ReadLine());
 
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("Element[{0}]: ", i);
+            arr[i] = int.Parse(Console.ReadLine());
+        }
+
+        Array.Sort(arr);
+
+        int currentSum = 0;
+        bool found = false;
+        int j = 0;
+        for (int i = j; i < n; i++)
+        {
+            currentSum += arr[i];
+            if (currentSum == subset)
+            {
+                found = true;
+                break;
+            }
+            else if (currentSum > subset)
+            {
+                currentSum = 0;
+                i = j;
+                j++;
+            }
+        }
+        if (found)
+        {
+            Console.WriteLine("There is a subset with such sum!");
+        }
+        else
+        {
+            Console.WriteLine("There is no subset with such sum!");
+        }
     }
 }

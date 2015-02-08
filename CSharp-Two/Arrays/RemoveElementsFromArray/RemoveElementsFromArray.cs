@@ -5,8 +5,8 @@
 
 //_Example:_
 
-//|           input           |     result    |
-//|:-------------------------:|:-------------:|
+//|           input                               |     result    |
+//|:---------------------------------------------:|:-------------:|
 //| 6, **1**, 4, **3**, 0, **3**, 6, **4**, **5** | 1, 3, 3, 4, 5 |
 
 using System;
@@ -15,6 +15,17 @@ class RemoveElementsFromArray
 {
     static void Main()
     {
+        Console.Write("Enter array length: ");
+        int n = int.Parse(Console.ReadLine());
+
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("Element[{0}]: ", i);
+            arr[i] = int.Parse(Console.ReadLine());
+        }
+
 
     }
 }

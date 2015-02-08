@@ -31,9 +31,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. MergeSort", "MergeSort\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. QuickSort", "QuickSort\14. QuickSort.csproj", "{A25DD8BA-05FE-4DE5-ADE1-646BCC14DECC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. PrimeNumbers_", "PrimeNumbers\15. PrimeNumbers_.csproj", "{16F00082-A1B0-442C-A835-1FF5E81AAFB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. PrimeNumbers", "PrimeNumbers\15. PrimeNumbers.csproj", "{16F00082-A1B0-442C-A835-1FF5E81AAFB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. SubsetWithSumS_", "SubsetWithSumS\16. SubsetWithSumS_.csproj", "{039539E1-23B1-46B6-867D-ECDA7EF7D5B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. SubsetWithSumS", "SubsetWithSumS\16. SubsetWithSumS.csproj", "{039539E1-23B1-46B6-867D-ECDA7EF7D5B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. SubsetKWithSumS_", "SubsetKWithSumS\17. SubsetKWithSumS_.csproj", "{ECB6933B-2274-49B0-BAE0-7689B7F3F997}"
 EndProject
