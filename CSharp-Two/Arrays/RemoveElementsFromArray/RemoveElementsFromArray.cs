@@ -18,7 +18,7 @@ class RemoveElementsFromArray
         Console.Write("Enter array length: ");
         int n = int.Parse(Console.ReadLine());
 
-        int[] arr = new int[n];
+        int?[] arr = new int?[n];
 
         for (int i = 0; i < n; i++)
         {
@@ -26,6 +26,36 @@ class RemoveElementsFromArray
             arr[i] = int.Parse(Console.ReadLine());
         }
 
-
+        for (int i = 0; i < n - 2; i++)
+        {
+            if (arr[i] != null)
+            {
+                if (arr[i] >= arr[i + 1])
+                {
+                    if (arr[i + 2] >= arr[i])
+                    {
+                        arr[i + 1] = null;
+                    }
+                    else if (i > 0)
+                    {
+                        if (arr[i - 1] <= arr[i])
+                        {
+                            arr[i] = null;
+                        }
+                    }
+                    else
+                    {
+                        arr[i] = null;
+                    }
+                }
+            }
+        }
+        for (int i = 0; i < n; i++)
+        {
+            if (arr[i] != null)
+            {
+                Console.WriteLine(arr[i]);
+            }
+        }
     }
 }
