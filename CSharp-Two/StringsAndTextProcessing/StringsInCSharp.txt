@@ -1,0 +1,14 @@
+The string type represents a sequence of zero or more Unicode characters. string is an alias for String in the .NET Framework.
+
+A string is an object of type String whose value is text. Internally, the text is stored as a sequential read-only collection of Char objects. There is no null-terminating character at the end of a C# string; therefore a C# string can contain any number of embedded null characters ('\0'). The Length property of a string represents the number of Char objects it contains, not the number of Unicode characters. To access the individual Unicode code points in a string, use the StringInfo object.
+
+Clone() - Returns a reference to this instance of String.
+Compare() - Compares two specified String objects and returns an integer that indicates their relative position in the sort order.
+Concat() - Creates the string representation of the parameter.
+Copy() - Creates a new instance of String with the same value as a specified String.
+Contains() - Returns a value indicating whether a specified substring occurs within this string.
+IndexOf() - Reports the zero-based index of the first occurrence of the specified parameter in this string.
+Remove() - Returns a new string in which everything specified in the parameter is deleted.
+Replace() - Returns a new string in which all occurrences of the specified parameter in this instance are replaced with the other parameter.
+Split() - Returns a string array that contains the substrings in this instance that are delimited by elements of the parameter.
+Substring() - Retrieves a substring from this instance. The substring starts at a specified character position and continues to the end of the string.

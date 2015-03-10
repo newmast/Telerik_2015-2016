@@ -2,6 +2,7 @@
 //*	Write a program that reads two numbers `N` and `K` and generates all the variations of `K` elements from the set [`1..N`].
 
 //_Example:_
+//-------------------------
 
 //| N | K |                                      result                                      |
 //|:-:|:-:|:--------------------------------------------------------------------------------:|
@@ -14,6 +15,13 @@ class VariationsOfSet
 {
     static void Main()
     {
+        Console.Write("Enter range: ");
+        int n = int.Parse(Console.ReadLine());
+
+        Console.Write("Enter K (amount of numbers in range): ");
+        int k = int.Parse(Console.ReadLine());
+
+
 
     }
 }

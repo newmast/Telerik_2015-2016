@@ -37,9 +37,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. SubsetWithSumS", "Subse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. SubsetKWithSumS", "SubsetKWithSumS\17. SubsetKWithSumS.csproj", "{ECB6933B-2274-49B0-BAE0-7689B7F3F997}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. RemoveElementsFromArray_", "RemoveElementsFromArray\18. RemoveElementsFromArray_.csproj", "{D29B7AAE-07B2-4A10-B807-7432AB588D5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. RemoveElementsFromArray", "RemoveElementsFromArray\18. RemoveElementsFromArray.csproj", "{D29B7AAE-07B2-4A10-B807-7432AB588D5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. PermutationsOfSet_", "PermutationsOfSet\19. PermutationsOfSet_.csproj", "{50C6A65A-F222-4A23-BE73-EFDCDE223732}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. PermutationsOfSet", "PermutationsOfSet\19. PermutationsOfSet.csproj", "{50C6A65A-F222-4A23-BE73-EFDCDE223732}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. VariationsOfSet_", "VariationsOfSet\20. VariationsOfSet_.csproj", "{AA727795-4D2C-40EA-826B-9788A0C1F85C}"
 EndProject
