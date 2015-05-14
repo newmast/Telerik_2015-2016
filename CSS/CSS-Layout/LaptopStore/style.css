@@ -1,0 +1,65 @@
+body, div, nav, a, form, fieldset, legend, img, ul, li, p, input {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 60%;
+	overflow: hidden;
+}
+
+nav {
+	padding: 5px 20px 5px 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+nav a {
+	color: #00AEF0;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+form {
+	width: 70%;
+	border: 2px solid black;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+fieldset {
+	float: left;
+	width: 45%;
+	margin: 5px;
+}
+.content img{
+	width: 120px;
+	height: 85px;
+	float: left;
+}
+
+li {
+	list-style: none;
+	padding: 15px;
+	font-size: 15px;
+	display: inline;
+	font-family: sans-serif;
+}
+
+legend {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#sliders {
+	margin-top: 10%;
+}
+
+#sliders input {
+	margin-top: 20px;
+}

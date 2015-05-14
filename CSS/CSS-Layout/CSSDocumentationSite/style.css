@@ -1,0 +1,110 @@
+body, div, nav, img, ul, li, h3, section, header, h2, input, article, aside, p, a {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	background-color: #F1F1F1;
+	position: absolute;
+	border: 1px solid black;
+	width: 70%;
+}
+#wrapper nav img {
+	margin: 12px;
+}
+nav ul li h3 {
+	color: red;
+}
+
+nav li {
+	font-size: 18px;
+}
+
+nav {
+	float: left;
+	overflow: hidden;
+	background-color: transparent;
+	padding: 2px;
+	padding-right: 5px;
+}
+#content {
+	border: 1px solid black;
+	width: 55%;
+	overflow: hidden;
+	float: left;
+	margin: 3px;
+	padding: 4px;
+	padding-top: 15px;
+}
+#first {
+	border-top: 2px solid lightgray;
+}
+#last {
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 5px;
+}
+.button {
+	background: none;
+	border: 1px solid black;
+	padding: 2px 20px 2px 20px;
+	margin-bottom: 5px;
+}
+aside {
+	float: left;
+	width: 17%;
+}
+
+aside li {
+	list-style: none;
+}
+
+article {
+	clear: both;
+}
+
+article h3 {
+	margin-top: 10px;
+	background-color: #808080;
+	color: white;
+}
+
+article img {
+	float: left;
+}
+
+article p {
+	margin: 10px 1px 10px 1px;
+}
+
+a {
+	font-size: 18px;
+	color: red;
+}
+
+aside section header h2 {
+	background-color: #808080;
+	color: white;
+	text-align: center;
+}
+
+#search, #advertisement {
+	border: 2px solid lightgrey;
+	margin: 3px;
+}
+
+#advertisement img, #advertisement a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+aside a {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hosting li {
+	border: 2px solid lightgray;
+	margin: 3px;
+}

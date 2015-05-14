@@ -1,0 +1,26 @@
+table {
+   border-collapse: collapse;
+}
+th, td {
+   border: 1px solid gray;
+   padding: 5px;
+}
+#info{
+	color: white;
+	background-color: #00A600;
+}
+tr:nth-child(even) {
+	background: beige;
+}
+
+.DE:before {
+	content:url(images/DE.png);
+}
+
+.MX:before {
+	content:url(images/MX.png);
+}
+
+.UK:before {
+	content:url(images/UK.png);
+}

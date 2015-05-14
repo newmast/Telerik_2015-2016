@@ -1,0 +1,191 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.calculator {
+	
+	background: linear-gradient(#C2DCF6, #B1D3F5 10%);
+	padding: 5px;
+	width: 23%;
+    height: 595px;
+    border-radius: 10px;
+}
+
+#top-menu>span {
+	font-weight: lighter;
+}
+
+#top-menu>span:before {
+	margin: 8px;
+	content:url(images/icon.png);
+}
+
+#exit-menu td {
+    border-radius: 5px;
+}
+
+#top-menu table {
+	float:right;
+	margin-bottom: 5px;
+}
+
+#exit-menu > td {
+	border: 1px solid black;
+	padding: 5px;
+	color: white;
+	background-color: lightgrey;
+}
+#buttonArea{
+    background-color: #D9E4F1;
+    margin-top: -5px;
+    height: 260px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#exit {
+	background-color: red !important;
+}
+
+#calc-body table {
+	background-color: #D9E4F1;
+	width: 100%;
+}
+
+#calc-body table thead tr td {
+	float: left;
+	padding-right: 10px;
+	padding-left: 5px;
+}
+
+#calc-body table tbody tr td {
+	padding: 5px;
+}
+
+#calc-body table thead tr td::first-letter {
+	text-decoration: underline;
+}
+
+#screen {
+	width: 100%;
+	height: 66px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#binary {
+	border: 1px solid black;
+}
+
+#binary tr td {
+    color: #203C60;
+}
+
+.answers td {
+    color: #82878C !important;
+}
+
+
+.RadioButtonsField{
+    border: 1px solid #797575;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 100px;
+    width: 80px;
+}
+
+.RadioButtonsField > input{
+    margin-left: 5px;
+    margin-top: 7px;
+    vertical-align: central;
+    background-color: blue;
+}
+
+.RadioButtonsField > label{
+    font-family: Verdana;
+    font-size: 12px;
+    padding-right: 12px;
+    padding-top: 100px;
+}
+
+ .ButtonsField{
+    float: right;
+    height: 210px;
+    width: 380px;
+    /*border: 1px solid #797575;
+    border-radius: 3px;*/
+    margin-top: -220px;
+   
+}
+
+ .ButtonsField ul > li{
+    display: inline;
+    vertical-align: central;
+    margin: 0px;
+    padding: 0px;
+}
+
+ .ButtonsField ul > li button{
+    background: #f3f8fd; /* Old browsers */
+    background: -moz-linear-gradient(top, #f3f8fd 44%, #d6e1ef 58%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(44%,#f3f8fd), color-stop(58%,#d6e1ef)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f3f8fd 44%,#d6e1ef 58%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f3f8fd 44%,#d6e1ef 58%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f3f8fd 44%,#d6e1ef 58%); /* IE10+ */
+    background: linear-gradient(to bottom, #f3f8fd 44%,#d6e1ef 58%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f8fd', endColorstr='#d6e1ef',GradientType=0 ); /* IE6-9 */
+
+    border: 1px solid rgba(141, 134, 134, 0.47);
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: Tahoma;
+    margin-bottom: -10px;
+    color: #293054;
+    height: 31px;
+    width: 35px;
+}
+
+ .ButtonsField ul > li button.Disabled{
+    background: none;
+}
+
+ .ButtonsField ul > li button.Digit{
+    background: #fbffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #fbffff 44%, #eff7fc 53%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(44%,#fbffff), color-stop(53%,#eff7fc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fbffff 44%,#eff7fc 53%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fbffff 44%,#eff7fc 53%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fbffff 44%,#eff7fc 53%); /* IE10+ */
+    background: linear-gradient(to bottom, #fbffff 44%,#eff7fc 53%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbffff', endColorstr='#eff7fc',GradientType=0 ); /* IE6-9 */
+}
+
+ .ButtonsField ul > li button.Equal{
+    font-weight: bold;
+    height: 66px;
+    vertical-align: top;
+}
+
+ .ButtonsField ul > li button.Zero{
+    width: 75px;
+}
+
+     .ButtonsField ul.LastButtonRow{
+        position:absolute;
+        margin-top: -41px;
+    }
+
+     .ButtonsField ul > li button:hover:not(.Disabled){
+        border: 1px solid #EBD74C;
+
+        background: #fef0e0; /* Old browsers */
+        background: -moz-linear-gradient(top, #fef0e0 33%, #fbcf72 60%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(33%,#fef0e0), color-stop(60%,#fbcf72)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #fef0e0 33%,#fbcf72 60%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #fef0e0 33%,#fbcf72 60%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #fef0e0 33%,#fbcf72 60%); /* IE10+ */
+        background: linear-gradient(to bottom, #fef0e0 33%,#fbcf72 60%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef0e0', endColorstr='#fbcf72',GradientType=0 ); /* IE6-9 */
+    }

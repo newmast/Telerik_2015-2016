@@ -1,0 +1,63 @@
+body, div, input, p, img, header, article, section, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 50%;
+}
+
+#top img {
+	width: 45px;
+	height: 45px;
+	float: left;
+	margin: 10px 0px 0px 10px;
+}
+input[type="submit"] {
+    color: #ffffff;
+    border: none;
+    background: url("images/goBtn.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 25px;
+}
+#top {
+	overflow: hidden;
+	background: linear-gradient(#3B3B3B, #2D2D2D);
+	border-radius: 10px 10px 0px 0px;
+}
+#login {
+	float: right;
+	color: white;
+	margin: 25px;
+}
+
+#login input {
+	margin-left: 1px;
+}
+
+#content {
+	background-color: #3B3B3B;
+}
+
+header {
+	color: yellow;
+	padding: 10px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+h1 {
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+article > p {
+	color: lightgrey;
+	margin: 10px;
+}
+
+#login p {
+	float: left;
+	font-weight: bold;
+}

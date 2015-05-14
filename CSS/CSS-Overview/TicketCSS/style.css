@@ -1,0 +1,27 @@
+body{
+	background-color: darkslategray;
+}
+thead {
+	color: grey;
+}
+
+#support {
+	color: red;
+}
+
+.info {
+	color: lightgray;
+	font-style: italic;
+}
+
+.user-input {
+	color: darkorange;
+}
+
+#answered {
+	color: saddlebrown;
+}
+
+.status {
+	color: grey;
+}

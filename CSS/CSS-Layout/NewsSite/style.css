@@ -1,0 +1,50 @@
+body, div, nav, ul, li, section, img {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	background-color: #1E3741;
+	width: 600px;
+	overflow: hidden;
+	padding-top: 10px;
+}
+
+div>nav li {
+	padding: 7px;
+	margin: 1px;
+	background-color: #4B5F67;
+	color: #728A95;
+	display: inline;
+}
+section {
+	margin-top: 15px;
+}
+.selected {
+	background-color: #1E3741;
+	color: white;
+}
+
+li {
+	font-size: 15px;
+}
+section nav {
+	float: left;
+	color: #99A695;
+	width: 40%;
+}
+
+.selected-submenu {
+	background-color: #00968C;
+	padding: 5px 20px 5px 10px;
+	color: white;
+}
+
+section nav li:not(.selected-submenu) {
+	border-bottom: 2px solid #384D56;
+	padding: 5px 20px 5px 10px;
+	color: #97B9B1;
+}
+section nav li:last-child {
+	border: none;
+}

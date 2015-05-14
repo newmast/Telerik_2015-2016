@@ -1,0 +1,17 @@
+ul li ul li {
+	display: none;
+}
+
+body ul li:hover span{
+	text-decoration: underline;
+}
+
+ul li:hover ul li {
+	display: block;
+	text-decoration: none;
+	color: lightgray;
+}
+
+li {
+	list-style: none;
+}

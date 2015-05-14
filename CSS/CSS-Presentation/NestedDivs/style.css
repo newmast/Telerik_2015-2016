@@ -1,0 +1,10 @@
+div {
+	background-color: black;
+	border: 1px solid red;
+	border-radius: 60px;
+	padding-right: 2%;
+}
+
+body {
+	width: 65%;
+}
