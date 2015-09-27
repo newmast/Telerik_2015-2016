@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>Operators and Expressions</title>
+		<script src="scripts.js"></script>
+		<style>
+			section {
+				border: 1px solid black;
+				display: inline-block;
+				margin: 10px;
+				padding: 10px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<section>
+			<h1>1. Odd Or even</h1>
+			<p>Write an expression that checks if given integer is odd or even.</p>
+			<input type="text" id="task-one-input" placeholder="Input">
+			<input type="submit" onclick="OddOrEven()">
+			<input type="text" id="task-one-answer" placeholder="Answer">
+		</section>
+		<section>
+			<h1>2. Divisible by 7 and 5</h1>
+			<p>Write a boolean expression that checks for given integer if it can be divided (without remainder) by 7 and 5 in the same time.</p>
+			<input type="text" id="task-two-input" placeholder="Input">
+			<input type="submit" onclick="DivisibleBy7and5()">
+			<input type="text" id="task-two-answer" placeholder="Answer">
+		</section>
+		<section>
+			<h1>3. Rectangle area</h1>
+			<p>Write an expression that calculates rectangle&#8217;s area by given width and height.</p>
+			<input type="text" id="task-three-width" placeholder="Width">
+			<input type="text" id="task-three-height" placeholder="Height">
+			<input type="submit" onclick="RectangleArea()">
+			<input type="text" id="task-three-answer" placeholder="Answer">
+		</section>
+		<section>
+			<h1>4. Third digit</h1>
+			<p>Write an expression that checks for given integer if its third digit (right-to-left) is 7.</p>
+			<input type="text" id="task-four-input" placeholder="Input">
+			<input type="submit" onclick="ThirdDigit()">
+			<input type="text" id="task-four-answer" placeholder="Answer">
+		</section>
+		<section>
+			<h1>5. Third bit</h1>
+			<p>Write a boolean expression for finding if the bit #3 (counting from 0) of a given integer. <br>
+The bits are counted from right to left, starting from bit #0. <br>
+The result of the expression should be either 1 or 0.</p>
+			<input type="text" id="task-five-input" placeholder="Input">
+			<input type="submit" onclick="ThirdBit()">
+			<input type="text" id="task-five-answer" placeholder="Answer">
+		</section>
+		<section>
+			<h1>6. Point in Circle</h1>
+			<p>Write an expression that checks if given point P(x, y) is within a circle K(O, 5).</p>
+			<input type="text" id="task-six-x" placeholder="X">
+			<input type="text" id="task-six-y" placeholder="Y">
+			<input type="submit" onclick="PointInCircle()">
+			<input type="text" id="task-six-answer" placeholder="Answer">
+		</section>
+		<section>
+			<h1>7. Is prime</h1>
+			<p>Write an expression that checks if given positive integer number n (n ≤ 100) is prime.</p>
+			<input type="text" id="task-seven-input" placeholder="Input <= 100">
+			<input type="submit" onclick="IsPrime()">
+			<input type="text" id="task-seven-answer" placeholder="Answer">
+		</section>
+		<section>
+			<h1>8. Trapezoid Area</h1>
+			<p>Write an expression that calculates trapezoid's area by given sides a and b and height h.</p>
+			<input type="text" id="task-eight-a" placeholder="a"><br>	
+			<input type="text" id="task-eight-b" placeholder="b"><br>
+			<input type="text" id="task-eight-h" placeholder="h">
+			<input type="submit" onclick="TrapezoidArea()">
+			<input type="text" id="task-eight-answer" placeholder="Answer">
+		</section>
+		<section>
+			<h1>9. Point in Circle and outside Rectangle</h1>
+			<p>Write an expression that checks for given point P(x, y) if it is within the circle K( (1,1), 3) and out of the rectangle R(top=1, left=-1, width=6, height=2).</p>
+			<input type="text" id="task-nine-x" placeholder="X">
+			<input type="text" id="task-nine-y" placeholder="Y">
+			<input type="submit" onclick="InCircleOutRectangle()">
+			<input type="text" id="task-nine-answer" placeholder="Answer">
+		</section>
+	</body>
+</html>
