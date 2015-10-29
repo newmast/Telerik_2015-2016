@@ -29,6 +29,12 @@
 
             var currentSequenceValue = m;
 
+            if (currentSequenceValue % 2 == 1)
+            {
+                transformations.Add(currentSequenceValue);
+                currentSequenceValue--;
+            }
+
             while (currentSequenceValue > n)
             {
                 transformations.Add(currentSequenceValue);

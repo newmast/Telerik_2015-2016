@@ -8,7 +8,6 @@
         {
             var myLinkedList = new LinkedList<int>();
             myLinkedList.First = new LinkedListItem<int>(1);
-
             myLinkedList.InsertAfter(myLinkedList.First, new LinkedListItem<int>(3));
             myLinkedList.InsertAfter(myLinkedList.First, new LinkedListItem<int>(2));
 
